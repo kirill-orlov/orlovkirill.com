@@ -12,7 +12,7 @@ function App() {
 			<header className="header">
 				<h1>Кирилл Орлов</h1>
 				<p className="subtitle">
-					Frontend-разработчик с {currentYear - 2021}-х летним опытом разработки сложных
+					Frontend-разработчик с {currentYear - 2020} летним опытом разработки сложных
 					веб-приложений
 				</p>
 				<button onClick={handleOpen} className="download-button" aria-label="Подробнее обо мне">
