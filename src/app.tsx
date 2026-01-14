@@ -7,7 +7,7 @@ function App() {
 	};
 
 	const experienceYears = useMemo(() => {
-		type Ym = { year: number; month: number };
+		type Ym = { year: number; month: number }; // 1..12
 		const toTotalMonths = ({ year, month }: Ym) => year * 12 + (month - 1);
 		const countInclusiveMonths = (start: Ym, end: Ym) =>
 			Math.max(0, toTotalMonths(end) - toTotalMonths(start) + 1);
